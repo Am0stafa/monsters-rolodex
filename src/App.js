@@ -26,6 +26,7 @@ class App extends Component {
   
   
   render() {
+  
   const {monister , search} = this.state;
   let searchvalue = monister.filter((m)=>
   m.name.toLowerCase().includes(search.toLowerCase())

@@ -5,7 +5,8 @@ import { Card } from '../card/card.component'
 export const CardList = ({monister}) => (
 
 <div className="card-list"> 
-{  monister.map((m)=>(   
+{  
+     monister.map((m)=>(   
       <Card key={m.id} monister ={m}/>
     )) }
   
